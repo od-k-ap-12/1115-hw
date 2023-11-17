@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:20px;
+    padding:10px;
+    background: rgb(26, 93, 102);
+    color:#fff
+}
+.title{
+    background: rgb(26, 93, 102);
+    display: flex;
+    margin-top:20px;
+    margin-left: 20px;
+}
+sup{
+    color:rgb(167, 62, 2);
+}
+
+.paragraph{
+    background: rgb(40, 123, 126);
+    display: flex;
+    margin-left: 20px;
+}
+
+.paragraph p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#fff;
+    background:rgb(40, 123, 126);
+    margin:10px;
+    padding:10px;
+}
+.note{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}

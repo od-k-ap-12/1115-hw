@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ol{
+    list-style: none;
+    margin: 10px;
+    padding: 2px 0px;
+    width: 600px;
+    background: #e699a9;
+    counter-reset: number;
+}
+
+ol li{
+    height: 50px;
+    background: #c7616e;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+    display: flex;
+}
+
+ol li span{
+    background: #ad3c4f;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+ol li::before{
+    content: counter(number) '.';
+    counter-increment: number;
+    background: #c7616e;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    margin: 10px;
+}
+
+span p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
